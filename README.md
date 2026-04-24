@@ -4,9 +4,6 @@ Java CLI application that simulates a front-end system for Neon Ark.
 
 ## Overview
 
-* No database
-* No backend
-* No file writing
 * All actions simulate API behavior
 
 ## Features
