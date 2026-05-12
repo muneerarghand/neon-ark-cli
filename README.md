@@ -1,11 +1,1 @@
-neon-ark-<project>/
-│
-├── src/
-│   ├── main/
-│   │   ├── java/        # Application source code
-│   │   └── resources/   # Configuration files, static assets
-│   └── test/            # Unit tests (if applicable)
-│
-├── pom.xml              # Maven build configuration
-├── .gitignore           # Git ignored files
-└── README.md            # Project documentation
+Neon Ark is a small Java project with two parts: a backend API and a CLI client. The backend stores creature data, and the CLI lets you create, view, and delete creatures. The CLI talks to the backend using simple HTTP requests. The project uses a clean structure with Java, Maven, and basic REST communication. Features include creating creatures, listing creatures, and deleting creatures. Future improvements may include editing creatures, adding authentication, and adding Docker support. To run the backend, use: mvn spring-boot:run To run the CLI, use: mvn clean package and then java -jar target/neon-ark-cli.jar
