@@ -21,7 +21,3 @@ mvn clean install
 
 ### Run
 java -cp target/classes com.neonark.cli.Main
-
-## Backend Requirement
-Make sure backend is running:
-http://localhost:8080
