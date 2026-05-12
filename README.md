@@ -1,20 +1,27 @@
 # Neon Ark CLI
 
-Java CLI application that simulates a front-end system for Neon Ark.
-
 ## Overview
-
-* All actions simulate API behavior
+Java CLI application that connects to Neon Ark backend API.
 
 ## Features
+- Create creatures via API
+- View creatures
+- Delete creatures
+- Simulated menu system
 
-* Add New Warden (validated + simulated request)
-* View Wardens (read-only CSV)
-* Other actions are simulated
+## Tech Stack
+- Java
+- Maven
+- Spring Boot backend (API integration)
 
-## Run
+## How to Run
 
-```bash
-javac -d out src/com/neonark/*.java
-java -cp out com.neonark.Main
-```
+### Compile
+mvn clean install
+
+### Run
+java -cp target/classes com.neonark.cli.Main
+
+## Backend Requirement
+Make sure backend is running:
+http://localhost:8080
